@@ -8,7 +8,7 @@
         "react-dom": "^16.8.6",
         "react-scripts": "3.0.1"
     },
-    "homepage": "httpe://trd-nico.github.io/myreact",
+    "homepage": "https://trd-nico.github.io/myreact",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
