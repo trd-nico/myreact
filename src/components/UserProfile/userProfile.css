@@ -1,0 +1,50 @@
+.user-dialog-wrapper-1{
+    display: block;
+    width: 100%;
+}
+.user-dialog-avatar{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.user-dialog-avatar-logo{
+    margin-top: 15px;
+    margin-bottom:20px
+}
+
+.user-dialog-avatar h4{
+    font-size: 17pt;
+}
+
+.user-dialog-rating{
+    padding: 3px;
+    padding-top: 10px;
+}
+
+.link-to-trade-history{
+    margin-top: 30px;
+}
+.link-to-trade-history a{
+    color: #53AEFC;
+}
+
+.user-dialog-table{
+    font-size: 13px;
+    color:#545151;
+    border: 1px solid #707070;
+}
+.user-dialog-table tr, td {
+    border: 1px solid #707070;
+    padding: 3px;
+}
+.user-dialog-table tr td {
+    border: 1px solid #707070;
+    padding: 3px;
+    min-width: 142px;
+    
+}
+
+.modal-body{
+    padding-bottom: 35px !important;
+}

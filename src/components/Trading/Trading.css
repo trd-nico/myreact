@@ -1,0 +1,70 @@
+.btn-trading {
+	background-color: #2699FB !important;
+	color: #FFFFFF !important;
+}
+
+.btn-no-color {
+	background-color: #EFEFEF !important;
+	color: #000000 !important;
+}
+
+.btn-trading-readmore {
+	color: #1890FF !important;
+	font-weight: bold !important;
+}
+.parag {
+	margin: 0px;
+}
+.s1 {
+	color: #46B51D;
+	font-weight: bold;
+}
+.s2 {
+	color: #000000;
+	font-weight: bold;
+}
+.price {
+	font-size: 24px;
+	color: #2699FB;
+	font-weight: bold;
+}
+
+.descrp {
+	color: #848282;
+}
+
+
+/* Carousel Custom CSS */
+.image-gallery-bullets {
+	bottom: -20px !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+	background-color: #BCE0FD !important;
+	box-shadow: none !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+	background-color: #2699FB !important;
+}
+
+.image-gallery-description {
+	width: 100%;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px !important;
+    background-color: transparent !important;
+}
+
+.trading-table td {
+	color: #848282 !important;
+	padding: .50rem;
+	font-size: 14px;
+	border: 1px solid #dee2e6 !important;
+}
+
+.trading-horizontal-line {
+	border-bottom: 1px solid #707070;
+}

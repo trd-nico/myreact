@@ -1,0 +1,30 @@
+#signupModal .modal {
+  width: 295px;
+  height: 176px;
+  background-color: #e8e4c9;
+}
+
+#signupModal .modal-body p {
+  font-size: 21pt;
+  font-family: Arial;
+  font-weight: bold;
+  color: #2699FB;
+  text-align: center;
+  padding-top: 55px;
+}
+
+#signupModal .modal-options {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#signupModal .btn-save {
+  color: #2699FB;
+}
+
+#signupModal .btn-close {
+  color: #FF0000;
+}

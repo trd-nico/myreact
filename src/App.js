@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Marinity from "./Marinity";
+import { Route, Switch } from "react-router-dom";
+import { Login, Signup, ResetPassword, ResetConfirmation } from "./components";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    console.log(window.location.pathname);
+    return (
+      <React.Fragment>
+        <Switch>
+          <Route path="/" exact strict component={() => <Login />} />
+          <Route path="/signup" exact strict component={() => <Signup />} />
+          <Route path="/passwordreset" exact strict component={() => <ResetPassword />} />
+          <Route path="/passwordconfirmation" exact strict component={() => <ResetConfirmation />} />
+          <Marinity/>
+        </Switch>
+      </React.Fragment>
+    );
+  }
 }
-
-export default App;

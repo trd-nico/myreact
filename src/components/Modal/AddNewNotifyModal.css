@@ -1,0 +1,66 @@
+.addNewNotifyModal {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.addNewNotifyModal .form-control {
+	border: 2px solid #BCE0FD;
+	border-radius: 0em;
+	height: calc(1.5em + 1.2rem + 2px);
+	padding: .5rem 1rem;
+}
+
+.addNewNotifyModal label {
+	color: #2699FB;
+}
+
+.addNewNotifyModal input[type=text] {
+	color: #2699FB !important;
+}
+/* Placeholder */
+.addNewNotifyModal ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #2699FB !important;
+}
+  
+.addNewNotifyModal :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #2699FB !important;
+}
+  
+.changeEmailContainer ::-ms-input-placeholder { /* Microsoft Edge */
+	color: #2699FB !important;
+}
+
+.addNewNotifyModal .modal-body {
+	padding-bottom: 0rem !important;
+}
+
+.btnSaveNotify {
+	color: #2699FB !important;
+	font-weight: bold !important;
+}
+
+.btnCancel {
+	color: #E90F0F !important;
+	font-weight: bold !important;
+}
+
+.btnAddnotifyOK {
+	color: #2699FB !important;
+    font-weight: bold !important;
+}
+
+.addNotifySuccessModal {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.addNotifyMsg {
+	color: #2699FB;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addNotifySuccessModal .modal-body {
+	padding-bottom: 1rem !important;
+}

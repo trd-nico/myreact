@@ -1,0 +1,59 @@
+.message-list td{
+  padding: 20px !important;
+  border: none !important;
+}
+
+.message-list tr .message-status{
+  color:#FC0D0D !important;
+  vertical-align: middle;
+  font-size: 24px
+}
+
+.message-list tr .message-title {
+  font-weight: bold;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px !important;
+  color: #000000 !important;
+  vertical-align: middle;
+}
+
+.message-list tr .message-details{
+  font-size: 14px;
+  color: #000000 !important;
+  vertical-align: middle;
+}
+
+.message-sender {
+  text-align: center;
+  color: #2699FB;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sender-textbox {
+  position: fixed;
+  left: 25px;
+  bottom: 5px; 
+  display: inline-block;
+}
+
+.sender-textbox .form-control-lg {
+  border-radius: 5.3rem;
+  display: inline-block;
+}
+
+.messageContainer .msg-bottom-spacing {
+  margin-bottom: 120px;
+}
+
+.msg-horizontal-line {
+  border-bottom: 4px solid #F5F5F5;
+}
+
+.msg-right {
+  text-align: right;
+}
+
+.msg-left {
+  text-align: left;
+}
